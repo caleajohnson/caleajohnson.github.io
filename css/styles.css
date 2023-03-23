@@ -20,6 +20,8 @@ body {
 img {
     width: 400px;
     border-radius: 10px;
+    position: relative;
+    z-index: 300;
 }
 
 a {
@@ -103,16 +105,17 @@ header { background:#2C0735
 
 }
 /* /* */
-.color-block {
+.color-block1 {
     position: relative;
+    margin-top: -300px;
     bottom: -310px;
     left: 10px;
     width: 400px;
     height: 300px;
-    background-color: red;
+    background-color: rgb(148, 210, 189);
     border-radius: 10px;
-    /* z-index:-1; */
-  }
+    z-index: 0;
+}
 
 
 /* Education
