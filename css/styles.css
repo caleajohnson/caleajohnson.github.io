@@ -112,7 +112,7 @@ header { background:#2C0735
     right: 10px;
     width: 400px;
     height: 300px;
-    background-color: rgb(148, 210, 189);
+    background-color: rgba(148, 210, 189, 90%);
     border-radius: 10px;
     z-index: 0;
 }
