@@ -109,7 +109,7 @@ header { background:#2C0735
     position: relative;
     margin-top: -300px;
     bottom: -310px;
-    left: 10px;
+    right: 10px;
     width: 400px;
     height: 300px;
     background-color: rgb(148, 210, 189);
