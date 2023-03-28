@@ -8,6 +8,12 @@ html {
     box-sizing: inherit;
   } 
 
+#grad {
+  height: max-content;  
+  background-color: black;
+  background-image: linear-gradient(#2c0735, #3C0F6B,  #5536AB,  #3D5BB8,  #097FBA);
+}
+
 body {
     color: #ffffff;
     margin: 0;
@@ -54,7 +60,8 @@ h1 {
     font-size: 50px;
 }
 .content-wrap {
-   width: 800px;
+   max-width: 800px;
+   width: 85%;
    margin: 0 auto;
    padding: 60px 0;
 }
@@ -82,16 +89,19 @@ h3 {
 /* Profile
 ------------------------*/
 header { 
-    background:#2C0735;
+    border-bottom: 1px groove #ffffff;
     text-align: center;
 
 }
 
+.header img {
+    border-image: repeat;
+}
 
 /* Projects
 ------------------------*/
 .projects {
-    background: #3C0F6B;
+    border-bottom: 1px groove #ffffff;
 }
 
 .projects .btn {
@@ -124,7 +134,7 @@ header {
 /* Work Experience
 ------------------------*/
 .work-experience {
-    background: #5536AB;
+    border-bottom: 1px groove #ffffff;
 
 }
 .color-block1 {
@@ -152,8 +162,7 @@ header {
 /* Education
 ------------------------*/
 .education {
-    background: #3D5BB8;
-    border-bottom: 2px groove #ffffff;
+    border-bottom: 1px groove #ffffff;
 
 }
 
@@ -161,7 +170,6 @@ header {
 /* Contact Info
 ------------------------*/
 .contact-info {
-    background: #097FBA;
     text-align: center;
 }
 .contact-info a:hover {
