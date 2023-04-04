@@ -91,6 +91,7 @@ h3 {
 
 .divider > section:last-of-type {
     border-bottom: none;
+    padding-bottom: 0px;
 } 
 
 /* Profile
