@@ -91,6 +91,7 @@ h3 {
 
 .divider > section:last-of-type {
     border-bottom: none;
+    padding-bottom: 15px;
 } 
 
 /* Profile
@@ -155,11 +156,13 @@ header {
     z-index: 0;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 .job-summary {
     margin-top: 3px;
 }
+
 
 /* Education
 ------------------------*/
